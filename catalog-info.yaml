@@ -1,0 +1,19 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: puppet-podman
+  title: "Puppet Podman Module"
+  description: "Puppet module for podman"
+  tags:
+    - bits
+    - bits-tools
+    - puppet
+  annotations:
+    github.com/project-slug: broadinstitute/podman
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: library
+  owner: devnull
+  lifecycle: production
+  
